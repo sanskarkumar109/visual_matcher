@@ -19,15 +19,23 @@ A simple **Streamlit-based Visual Search App** that allows users to upload an im
 ## 📁 Folder Structure
 
 visual_search/
-│
+
 ├── main.py # Main Streamlit application
+
 ├── db/ # Product image database (your images go here)
+
 │ ├── image1.jpg
+
 │ ├── image2.png
+
 │ └── ...
+
 ├── db_features.npy # Cached feature vectors (auto-created)
+
 ├── db_image_paths.npy # Cached image paths (auto-created)
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Documentation
 
 
